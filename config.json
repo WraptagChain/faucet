@@ -16,7 +16,7 @@
             "TOKEN": "WPT",
             "RPC": "https://rpc-testnet.metheus.network/ext/bc/2g4jDuqDRtsCc5beAdvW8oP4URv4Cr4qVewRqDjvAzAihXyiQm/rpc",
             "CHAINID": 20220906,
-            "EXPLORER": "https://testnet.metheus.network/",
+            "EXPLORER": "https://testnet.metheus.network",
             "IMAGE": "/wraptag.png",
             "MAX_PRIORITY_FEE": "2000000000",
             "MAX_FEE": "100000000000",
