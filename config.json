@@ -12,7 +12,7 @@
     "evmchains": [
         {
             "ID": "2jMwip1jDDZx13s3KgVHhZ789dYP7hnWigsWvBmtnjZaG7Sczz",
-            "NAME": "WrapTag",
+            "NAME": "WrapTag Testnet",
             "TOKEN": "WPT",
             "RPC": "https://rpc-testnet.metheus.network/ext/bc/2g4jDuqDRtsCc5beAdvW8oP4URv4Cr4qVewRqDjvAzAihXyiQm/rpc",
             "CHAINID": 20220906,
