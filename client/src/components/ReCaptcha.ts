@@ -8,7 +8,7 @@ export default class ReCaptcha {
     siteKey: string;
     action: string;
     constructor(SITE_KEY: string, ACTION: string) {
-        loadReCaptcha(SITE_KEY);
+        // loadReCaptcha(SITE_KEY);
         this.siteKey = SITE_KEY
         this.action = ACTION
     }

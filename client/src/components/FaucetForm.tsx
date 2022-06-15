@@ -139,8 +139,9 @@ const FaucetForm = (props: any) => {
     }
 
     async function getCaptchaToken() {
-        const token = await recaptcha.getToken();
-        return token;
+        // const token = await recaptcha.getToken();
+        // return token;
+        return ''
     }
 
     async function updateChain(option: any) {
