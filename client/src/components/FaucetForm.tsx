@@ -258,7 +258,7 @@ const FaucetForm = (props: any) => {
     return (
         <div className='container'>
             <div className = "box">
-                <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/>
+                {/* <div className='banner' style={{backgroundImage: `url(${props.config.banner})`}}/> */}
 
                 <div className='box-content'>
                     <div className='box-header'>
