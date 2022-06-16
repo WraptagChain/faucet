@@ -26,6 +26,7 @@ export default function FooterBox(props: any) {
                     Use the buttons below to add <b>{props.chainConfigs[props.chain!]?.NAME}</b> to your browser wallet extension
                     or visit the Subnet's block explorer.
                     <AddNetwork config={props.chainConfigs[props.chain!]}/>
+                    <div className='view-explorer' style={{ marginTop: 20 }}><a target='_blank' className='view-explorer' href={props.chainConfigs[props.chain!]?.EXPLORER}>View Explorrer</a></div>
                 </div>
             </div>
             
