@@ -11,12 +11,12 @@
     },
     "evmchains": [
         {
-            "ID": "2jMwip1jDDZx13s3KgVHhZ789dYP7hnWigsWvBmtnjZaG7Sczz",
-            "NAME": "WrapTag Testnet",
+            "ID": "A1iV86hr1toCL7y4F6PM263n9fomCLUDDwpqFT2sG9FTCZJCm",
+            "NAME": "WrapTag",
             "TOKEN": "WPT",
-            "RPC": "https://rpc-testnet.metheus.network/ext/bc/2g4jDuqDRtsCc5beAdvW8oP4URv4Cr4qVewRqDjvAzAihXyiQm/rpc",
-            "CHAINID": 20220906,
-            "EXPLORER": "https://testnet.metheus.network",
+            "RPC": "https://rpc.metheus.network/ext/bc/21Z7pN9Z6VfmMo8jjhDQYyYJS5MB7MftZSuKrmenhmwADCWWJH/rpc",
+            "CHAINID": 24052022,
+            "EXPLORER": "https://scan.metheus.network",
             "IMAGE": "/wraptag.png",
             "MAX_PRIORITY_FEE": "2000000000",
             "MAX_FEE": "100000000000",
