@@ -61,7 +61,7 @@ export default function AddNetwork(props: any) {
                     <div className="add-network-sub-text">Mobile Wallet</div>
                     <div className="add-network-button">
                         <img style={{width: "22px", height: "22px", marginRight: "5px"}} src="/keyring.png"/>
-                        Keyring Pro
+                        KEYRING PRO
                     </div>
                 </div>
             </div>
