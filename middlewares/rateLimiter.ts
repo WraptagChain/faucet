@@ -1,5 +1,6 @@
 import rateLimit, { RateLimitRequestHandler } from 'express-rate-limit';
 import { searchIP } from 'range_check';
+import { v4 as uuidv4 } from 'uuid';
 import { RateLimiterConfig } from '../types';
 
 export class RateLimiter {
@@ -44,11 +45,14 @@ export class RateLimiter {
             message: {
                 message: `Too many requests. Please try again after ${config.WINDOW_SIZE} minutes`
             },
+            // keyGenerator: (req, res) => {
+            //     const ip = this.getIP(req);
+            //     if(ip != null) {
+            //         return ip + req.body?.chain;
+            //     }
+            // }
             keyGenerator: (req, res) => {
-                const ip = this.getIP(req);
-                if(ip != null) {
-                    return ip + req.body?.chain;
-                }
+                return uuidv4();
             }
         });
 
