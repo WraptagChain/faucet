@@ -67,6 +67,7 @@ export default function AddNetwork(props: any) {
             </div>
 
             {showQR && <div className='add-keyring-qr' style={{ marginTop: 20 }}>
+                Scan QR code from KEYRING PRO and add the chain to your wallet      
                 <QRCodeDisplay size={250} value={`https://keyring.app/add-chain?name=${props.config.NAME}&chainid=${props.config.CHAINID}&rpc=${props.config.RPC}&symbol=${props.config.TOKEN}&decimal=${18}&explorer=${props.config.EXPLORER}`} />
             </div>}
         </div>
