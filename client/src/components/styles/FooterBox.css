@@ -40,26 +40,67 @@
     padding: 20px;
     padding-bottom: 0px;
     display: flex;
-    justify-content: space-between;
-}
-
-.add-network {
-    background-color: rgba(255, 255, 255, 0.15);
-    color: darkgrey;
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    cursor: pointer;
-    border-radius: 25px;
-    padding: 10px;
-    min-width: 45%;
-    height: 36px;
-    border: 0px;
+    gap: 15px;
+    
+}
+.add-keyring-qr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.add-network:hover {
-    background-color: black;
+.add-network-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .add-network-container{
+        flex-direction: column;
+    }
+}
+
+.add-network-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;
+    max-width: 110px;
+    padding: 0 25px;
+}
+
+.add-network-wrapper:hover {
+    opacity: 0.8;
+}
+
+.add-network-sub-text {
+    color: #B4B4B7;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+}
+
+.add-network-button {
+    display: flex;
+    align-items: center;
     color: white;
+    margin-top: 2px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
 }
 
 @media screen and (max-width: 500px) {
