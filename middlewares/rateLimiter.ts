@@ -52,7 +52,7 @@ export class RateLimiter {
             //     }
             // }
             keyGenerator: (req, res) => {
-                return uuidv4();
+                return this.getAddress(req);
             }
         });
 
@@ -62,5 +62,10 @@ export class RateLimiter {
     getIP(req: any) {
         const ip = req.headers['cf-connecting-ip'] || req.ip;
         return searchIP(ip);
+    }
+
+    getAddress(req: any) {
+        const address = req.body?.address;
+        return address;
     }
 }
